@@ -3,14 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/GameModeBase.h"
+#include "GameFramework/GameMode.h"
 #include "OnlineGameModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS(Abstract)
-class TRANSFORMOGUS_API AOnlineGameModeBase : public AGameModeBase
+class TRANSFORMOGUS_API AOnlineGameModeBase : public AGameMode
 {
 	GENERATED_BODY()
 
